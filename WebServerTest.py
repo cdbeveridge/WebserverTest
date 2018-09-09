@@ -16,7 +16,7 @@ def check_url(url, timeout=5):
 #list of sites to check 
 def CheckSites():
 
-	sites = ["enter siteList here"]
+	sites = ["https://google.com"]
 
 	for sites in sites:
 		print (sites), 'is available: ', check_url(sites)
